@@ -130,6 +130,7 @@
     <ClCompile Include="MainIA.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="anak.h" />
     <ClInclude Include="ibu.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
