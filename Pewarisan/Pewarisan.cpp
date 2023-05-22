@@ -37,9 +37,10 @@ public:
     }
 };
 
+int main() {
+    pelajar siswa1("Andi Laksono", "SMAN 1 Bantul");
+    cout << siswa1.Perkenalan();
+    cout << "Hasil = " << siswa1.jumlah(10, 90) << endl;
 
-
-int main()
-{
-    std::cout << "Hello World!\n";
+    return 0;
 }
